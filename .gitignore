@@ -1,0 +1,9 @@
+backend/ImageHandler/__pycache__/image_handler.cpython-39.pyc
+backend/ImageHandler/__pycache__/test_image_handler.cpython-39-pytest-6.2.5.pyc
+backend/ImageProcessor/__pycache__/image_processor.cpython-39.pyc
+backend/ImageProcessor/__pycache__/test_image_processing.cpython-39-pytest-6.2.5.pyc
+frontend/image-processing-frontend/package-lock.json
+backend/StressTesting/dcsc-project-440602-9412462c618e.json
+backend/ImageProcessor/dcsc-project-440602-9412462c618e.json
+backend/ImageHandler/dcsc-project-440602-9412462c618e.json
+backend/EmailNotification/dcsc-project-440602-9412462c618e.json

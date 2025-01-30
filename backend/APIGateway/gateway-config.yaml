@@ -1,0 +1,44 @@
+swagger: '2.0'
+info:
+  title: Image Processing API
+  description: API Gateway for Image Processing Service
+  version: 1.0.0
+schemes:
+  - https
+produces:
+  - application/json
+paths:
+  /upload-images:
+    post:
+      summary: Upload images
+      operationId: uploadImages
+      x-google-backend:
+        address: http://34.66.13.157.nip.io/upload-images
+      responses:
+        '200':
+          description: Successful response
+  /get-processed-images:
+    get:
+      summary: Get processed images
+      operationId: getProcessedImages
+      x-google-backend:
+        address: http://34.66.13.157.nip.io/get-processed-images
+      responses:
+        '200':
+          description: Successful response
+  /get-images-by-status:
+    get:
+      summary: Get images by status
+      operationId: getImagesByStatus
+      x-google-backend:
+        address: http://34.66.13.157.nip.io/get-images-by-status
+      responses:
+        '200':
+          description: Successful response
+securityDefinitions:
+  api_key:
+    type: apiKey
+    name: x-api-key
+    in: header
+security:
+  - api_key: []

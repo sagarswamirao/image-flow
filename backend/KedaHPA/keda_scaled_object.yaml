@@ -1,0 +1,17 @@
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: image-processor-scaler
+spec:
+  scaleTargetRef:
+    name: image-processor-deployment
+  minReplicaCount: 1
+  maxReplicaCount: 10
+  pollingInterval: 15
+  cooldownPeriod: 30
+  triggers:
+  - type: gcp-pubsub
+    metadata:
+      subscriptionSize: "50"
+      subscriptionName: "image-processing-queue-sub"
+      credentialsFromEnv: GOOGLE_APPLICATION_CREDENTIALS_JSON

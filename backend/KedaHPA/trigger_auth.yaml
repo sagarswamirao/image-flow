@@ -1,0 +1,9 @@
+apiVersion: keda.sh/v1alpha1
+kind: TriggerAuthentication
+metadata:
+  name: gcp-credentials
+spec:
+  secretTargetRef:
+    - parameter: googleApplicationCredentials
+      name: gcp-credentials
+      key: gcp-credentials.json

@@ -1,0 +1,54 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.App > * {
+    flex-shrink: 0;
+}
+
+.App > .main-content {
+    flex-grow: 1;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e0e0e0;
+    padding: 8px;
+    font-size: 0.9rem;
+    color: #333;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-center {
+    font-weight: bold;
+    color: #d33;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.footer-left,
+.footer-right {
+    flex: 1;
+}
+
+.footer a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

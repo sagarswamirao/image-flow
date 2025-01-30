@@ -1,0 +1,277 @@
+{
+	"info": {
+		"_postman_id": "82711ebe-93d3-4615-82ed-c44eb6986307",
+		"name": "DCSC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7775112"
+	},
+	"item": [
+		{
+			"name": "https://image-handler-gateway-djq0u17w.uc.gateway.dev/get-processed-images?UUID=0b81627a-91b4-4e91-a956-f7d7414dd04a&key=AIzaSyA41FtLj3upYrHGyJb8tTKNZmakFTmvwdw",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://image-handler-gateway-djq0u17w.uc.gateway.dev/get-processed-images?UUID=0b81627a-91b4-4e91-a956-f7d7414dd04a&key=AIzaSyA41FtLj3upYrHGyJb8tTKNZmakFTmvwdw",
+					"protocol": "https",
+					"host": [
+						"image-handler-gateway-djq0u17w",
+						"uc",
+						"gateway",
+						"dev"
+					],
+					"path": [
+						"get-processed-images"
+					],
+					"query": [
+						{
+							"key": "UUID",
+							"value": "0b81627a-91b4-4e91-a956-f7d7414dd04a"
+						},
+						{
+							"key": "key",
+							"value": "AIzaSyA41FtLj3upYrHGyJb8tTKNZmakFTmvwdw"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://image-handler-gateway-djq0u17w.uc.gateway.dev/get-processed-images?UUID=0b81627a-91b4-4e91-a956-f7d7414dd04a&key=AIzaSyA41FtLj3upYrHGyJb8tTKNZmakFTmvwdw",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://image-handler-gateway-djq0u17w.uc.gateway.dev/get-processed-images?UUID=0b81627a-91b4-4e91-a956-f7d7414dd04a&key=AIzaSyA41FtLj3upYrHGyJb8tTKNZmakFTmvwdw",
+					"protocol": "https",
+					"host": [
+						"image-handler-gateway-djq0u17w",
+						"uc",
+						"gateway",
+						"dev"
+					],
+					"path": [
+						"get-processed-images"
+					],
+					"query": [
+						{
+							"key": "UUID",
+							"value": "0b81627a-91b4-4e91-a956-f7d7414dd04a"
+						},
+						{
+							"key": "key",
+							"value": "AIzaSyA41FtLj3upYrHGyJb8tTKNZmakFTmvwdw"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://image-handler-gateway-djq0u17w.uc.gateway.dev/get-processed-images?batch_id=0b81627a-91b4-4e91-a956-f7d7414dd04a&key=AIzaSyA41FtLj3upYrHGyJb8tTKNZmakFTmvwdw",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://image-handler-gateway-djq0u17w.uc.gateway.dev/get-processed-images?batch_id=0b81627a-91b4-4e91-a956-f7d7414dd04a&key=AIzaSyA41FtLj3upYrHGyJb8tTKNZmakFTmvwdw",
+					"protocol": "https",
+					"host": [
+						"image-handler-gateway-djq0u17w",
+						"uc",
+						"gateway",
+						"dev"
+					],
+					"path": [
+						"get-processed-images"
+					],
+					"query": [
+						{
+							"key": "batch_id",
+							"value": "0b81627a-91b4-4e91-a956-f7d7414dd04a"
+						},
+						{
+							"key": "key",
+							"value": "AIzaSyA41FtLj3upYrHGyJb8tTKNZmakFTmvwdw"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://image-handler-gateway-djq0u17w.uc.gateway.dev/get-processed-images?batch_id=085209ef-8f3d-462c-a189-955a05ac41d1&key=AIzaSyA41FtLj3upYrHGyJb8tTKNZmakFTmvwdw",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://image-handler-gateway-djq0u17w.uc.gateway.dev/get-processed-images?batch_id=085209ef-8f3d-462c-a189-955a05ac41d1&key=AIzaSyA41FtLj3upYrHGyJb8tTKNZmakFTmvwdw",
+					"protocol": "https",
+					"host": [
+						"image-handler-gateway-djq0u17w",
+						"uc",
+						"gateway",
+						"dev"
+					],
+					"path": [
+						"get-processed-images"
+					],
+					"query": [
+						{
+							"key": "batch_id",
+							"value": "085209ef-8f3d-462c-a189-955a05ac41d1"
+						},
+						{
+							"key": "key",
+							"value": "AIzaSyA41FtLj3upYrHGyJb8tTKNZmakFTmvwdw"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/get-processed-images?batch_id=0b81627a-91b4-4e91-a956-f7d7414dd04a",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/get-processed-images?batch_id=0b81627a-91b4-4e91-a956-f7d7414dd04a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"get-processed-images"
+					],
+					"query": [
+						{
+							"key": "batch_id",
+							"value": "0b81627a-91b4-4e91-a956-f7d7414dd04a"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://image-handler-gateway-djq0u17w.uc.gateway.dev/upload-images",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "key",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "AIzaSyA41FtLj3upYrHGyJb8tTKNZmakFTmvwdw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "AIzaSyA41FtLj3upYrHGyJb8tTKNZmakFTmvwdw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "files",
+							"type": "file",
+							"src": [
+								"/Users/pavansaiappari/Downloads/DCSC-Project.vpd (2).png",
+								"/Users/pavansaiappari/Downloads/dcsc-proposal.jpg"
+							]
+						},
+						{
+							"key": "metadata",
+							"value": "{\"email\": \"rp@gmail.com\",\n\"imagesMetadata\":[\n{\n\"image_name\": \"multi_image.jpg\",\n\"filters\": [\n            {\n                \"filter_type\": \"resize\",\n                \"filter_value\": {\"width\": 800, \"height\": 600}\n            },\n            {\n                \"filter_type\": \"grayscale\",\n                \"filter_value\": {}\n            }\n            ]\n},\n{\n\"image_name\": \"multi_image2.jpg\",\n\"filters\": [\n            {\n                \"filter_type\": \"resize\",\n                \"filter_value\": {\"width\": 800, \"height\": 600}\n            },\n            {\n                \"filter_type\": \"grayscale\",\n                \"filter_value\": {}\n            }\n            ]\n}\n]}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://image-handler-gateway-djq0u17w.uc.gateway.dev/upload-images",
+					"protocol": "https",
+					"host": [
+						"image-handler-gateway-djq0u17w",
+						"uc",
+						"gateway",
+						"dev"
+					],
+					"path": [
+						"upload-images"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://image-handler-gateway-djq0u17w.uc.gateway.dev/upload-images Copy",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "key",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "AIzaSyA41FtLj3upYrHGyJb8tTKNZmakFTmvwdw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "AIzaSyA41FtLj3upYrHGyJb8tTKNZmakFTmvwdw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "files",
+							"type": "file",
+							"src": [
+								"/Users/pavansaiappari/Downloads/DCSC-Project.vpd (2).png",
+								"/Users/pavansaiappari/Downloads/dcsc-proposal.jpg"
+							]
+						},
+						{
+							"key": "metadata",
+							"value": "{\"email\": \"rp@gmail.com\",\n\"imagesMetadata\":[\n{\n\"image_name\": \"multi_image.jpg\",\n\"filters\": [\n            {\n                \"filter_type\": \"resize\",\n                \"filter_value\": {\"width\": 800, \"height\": 600}\n            },\n            {\n                \"filter_type\": \"grayscale\",\n                \"filter_value\": {}\n            }\n            ]\n},\n{\n\"image_name\": \"multi_image2.jpg\",\n\"filters\": [\n            {\n                \"filter_type\": \"resize\",\n                \"filter_value\": {\"width\": 800, \"height\": 600}\n            },\n            {\n                \"filter_type\": \"grayscale\",\n                \"filter_value\": {}\n            }\n            ]\n}\n]}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/upload-images",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"upload-images"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

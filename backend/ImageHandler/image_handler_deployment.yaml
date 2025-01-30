@@ -1,0 +1,41 @@
+apiVersion: apps/v1 #  for k8s versions before 1.9.0 use apps/v1beta2  and before 1.8.0 use extensions/v1beta1
+kind: Deployment
+metadata:
+  name: image-handler
+spec:
+  selector:
+    matchLabels:
+      app: image-handler
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: image-handler
+    spec:
+      containers:
+      - name: image-handler
+        image: pavan1820/image-handler:v5
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 5000
+        env:
+        - name: IMAGE_PORT
+          value: "5000"
+        - name: GCP_PROJECT
+          value: "dcsc-project-440602"
+        - name: GCP_BUCKET_NAME
+          value: "cu-image-flow"
+        - name: INTERACTION_POD_URL
+          value: "http://interaction-service:8080"
+        - name: BATCH_TABLE_NAME
+          value: "batch_uploads"
+        - name: IMAGE_METADATA_TABLE_NAME
+          value: "image_metadata"
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+---
